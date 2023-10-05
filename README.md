@@ -1,3 +1,65 @@
+# Mobile Recipe App
+
+Description:
+This mobile application offers comprehensive features related to recipe management. Its core functionalities include:
+
+Home Screen (HomeScreen):
+
+Users can view recipe categories.
+User's name and notification icon are displayed at the top.
+Recipes can be searched using a search bar.
+Category options are available, and users can navigate between these categories.
+Recipes are listed based on the selected category.
+Categories (Categories):
+
+Category options are displayed on the main screen.
+When a category is selected, the recipes belonging to that category are listed.
+Recipes (Recipes):
+
+A component that lists recipe items.
+Recipes are clickable, allowing users to access recipe details.
+Recipe Details (RecipeDetailScreen):
+
+An screen displaying detailed information about a recipe.
+It shows information such as the recipe's name, region, duration, portion size, calories, and difficulty level.
+Ingredients and instructions for the recipe are provided.
+Users can add or remove a recipe from their favorites using a "Favorite" button.
+The screen includes a component that allows users to play a YouTube video associated with the recipe.
+Welcome Screen (WelcomeScreen):
+
+The initial screen of the application.
+It showcases the application's logo with animations.
+Includes the titles "Foody - Food is always right."
+Automatically transitions to the main screen after a short delay.
+Used Libraries:
+
+The core libraries used in the development of this project include:
+
+react-native: The fundamental library for mobile app development.
+react-native-responsive-screen: Used for responsive design based on screen sizes.
+react-native-heroicons: Utilized to display icons in the UI.
+axios: Manages HTTP requests for data exchange with external APIs.
+react-navigation: Facilitates navigation between screens.
+react-native-youtube-iframe: Allows the playback of YouTube videos within the app.
+react-native-reanimated: Used to create and manage animations to enhance the user interface.
+nativewind: For styles
+This project was developed using React Native and incorporates data retrieval from external APIs through Axios. React Navigation is used for screen navigation, and React Native Reanimated enhances the user experience with animations. The application is designed to enable users to view recipes and search for recipes based on categories, making it a recipe management app.
+
+Preview: 
+
+
+https://github.com/nursedaturkcan/MobileFoodRecipeApp/assets/129687664/2867041b-cf36-4dba-b7f3-f41dd25ad806
+
+
+
+
+
+
+
+
+
+
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
